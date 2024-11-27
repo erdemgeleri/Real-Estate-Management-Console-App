@@ -71,7 +71,6 @@ class Emlak:
             print(f"✅ ID {home_id} olan ev başarıyla güncellendi!\n")
 
 
-# PostgreSQL connection setup
 conn = psycopg2.connect(
     dbname="emlakci",
     user="postgres",
